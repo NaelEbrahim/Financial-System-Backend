@@ -307,13 +307,13 @@ docker compose up -d
 
 Start the services in the following order:
 
-1. `config-service`
-2. `discovery-service`
-3. `identity-service`
-4. `account-service`
-5. `transaction-service`
-6. `notification-service`
-7. `gateway-service`
+1. `config-server`
+2. `discovery`
+3. `identity`
+4. `account`
+5. `transaction`
+6. `notification`
+7. `gateway`
 
 Run each service with:
 
