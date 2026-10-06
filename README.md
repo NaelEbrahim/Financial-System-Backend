@@ -46,9 +46,9 @@ NovaBank uses both synchronous and asynchronous communication.
 **OpenFeign** is used when a service requires an immediate response from another service.
 
 ```text
-Transaction Service
+Transaction Service    
         |
-        | OpenFeign
+        | OpenFeign  ---> Account Service
         v
 Identity Service
 ```
@@ -66,7 +66,7 @@ Transaction Service
         |
         +----> Account Service
         |
-        +----> Ledger Service
+        +----> Identity Service
         |
         +----> Notification Service
 ```
