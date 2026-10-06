@@ -197,7 +197,7 @@ Account Service
    +--> Credit receiver
    |
    v
-Ledger Service
+Transaction Service to Update status
    |
    v
 Notification Service
