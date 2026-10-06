@@ -38,14 +38,17 @@ NovaBank follows a **microservices architecture** where each service is responsi
 | **notification-service** | In-app and email notifications                                     |
 
 
+
 System Design
 
 The repository includes several diagrams documenting the system design and development process.
 
 
+
 System Architecture
 
 The system architecture diagram shows the relationship between the Flutter client, API Gateway, microservices, Kafka, service discovery, configuration, and databases.
+
 
 
 Entity Relationship Diagrams
@@ -61,14 +64,18 @@ diagrams/
     ├── transaction-service
     └── notification-service
 ```    
+
     
 Use Case Diagram
 
 The use case diagram describes the main interactions between users and the NovaBank system.
 
+
+
 Activity Diagram
 
 The activity diagram describes the main business workflows and the sequence of activities performed by the system.
+
 
 
 ## Communication
