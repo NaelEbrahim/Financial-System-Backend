@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>NovaBank Email Changed</title>
+</head>
+
+<body style="margin:0;padding:0;background-color:#f4f6f8;font-family:Arial,sans-serif;">
+
+<table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f6f8;padding:30px 0;">
+    <tr>
+        <td align="center">
+
+            <table width="600" cellpadding="0" cellspacing="0"
+                   style="background:#ffffff;border-radius:10px;overflow:hidden;">
+
+                <!-- Header -->
+                <tr>
+                    <td align="center"
+                        style="padding:30px;background:#0d6efd;color:white;">
+                        <h1 style="margin:0;">NovaBank</h1>
+                        <p style="margin-top:10px;">
+                            Secure • Fast • Reliable Banking
+                        </p>
+                    </td>
+                </tr>
+
+                <!-- Content -->
+                <tr>
+                    <td style="padding:40px;">
+
+                        <h2 style="color:#333333;margin-top:0;">
+                            Your Email Address Has Been Changed
+                        </h2>
+
+                        <p>
+                            Dear <strong th:text="${fullName}">User</strong>,
+                        </p>
+
+                        <p>
+                            This is to inform you that the email address associated
+                            with your NovaBank account has been successfully changed.
+                        </p>
+
+                        <table width="100%"
+                               cellpadding="15"
+                               cellspacing="0"
+                               style="
+                                   background:#f8f9fa;
+                                   border-left:4px solid #0d6efd;
+                                   margin:25px 0;
+                               ">
+                            <tr>
+                                <td>
+                                    <strong>New Email:</strong>
+                                    <span th:text="${newEmail}">old@example.com</span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Changed At:</strong>
+                                    <span th:text="${changedAt}">
+                                        2026-07-05 10:30 UTC
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <p>
+                            If you requested this change, no further action is
+                            required.
+                        </p>
+
+                        <hr style="border:none;border-top:1px solid #eeeeee;margin:30px 0;">
+
+                        <h3 style="color:#dc3545;">
+                            Didn't make this change?
+                        </h3>
+
+                        <p>
+                            If you did not authorize this email change, your account
+                            may have been compromised. Please contact NovaBank
+                            support immediately so we can help secure your account.
+                        </p>
+
+                        <ul style="color:#666666;padding-left:20px;">
+                            <li>Review your recent account activity.</li>
+                            <li>Change your password immediately if you still have access.</li>
+                            <li>Contact NovaBank support as soon as possible.</li>
+                        </ul>
+
+                        <p style="font-size:14px;color:#666666;">
+                            For your protection, NovaBank will never ask for your
+                            password, PIN, OTP, or security codes by email, phone,
+                            or SMS.
+                        </p>
+
+                    </td>
+                </tr>
+
+                <!-- Footer -->
+                <tr>
+                    <td align="center"
+                        style="
+                            padding:20px;
+                            background:#f8f9fa;
+                            color:#6c757d;
+                            font-size:12px;
+                        ">
+
+                        © 2026 NovaBank. All rights reserved.
+
+                        <br><br>
+
+                        This is an automated security notification. Please do not
+                        reply to this email.
+
+                    </td>
+                </tr>
+
+            </table>
+
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

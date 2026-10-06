@@ -1,0 +1,6 @@
+spring:
+  debug: true
+  application:
+    name: transaction-service
+  config:
+    import: optional:configserver:http://localhost:8888

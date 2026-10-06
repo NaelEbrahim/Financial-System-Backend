@@ -1,0 +1,6 @@
+spring:
+  debug: true
+  application:
+    name: notification-service
+  config:
+    import: optional:configserver:http://localhost:8888

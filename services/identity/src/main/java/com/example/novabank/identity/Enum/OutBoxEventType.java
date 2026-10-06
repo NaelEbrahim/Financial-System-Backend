@@ -1,0 +1,11 @@
+package com.example.novabank.identity.Enum;
+
+public enum OutBoxEventType {
+    FORGOT_PASSWORD_OTP_GENERATED,
+    REGISTRATION_REQUESTED,
+    USER_CREATION_PENDING,
+    USER_CREATED,
+    PASSWORD_CHANGED,
+    EMAIL_CHANGE_PENDING,
+    EMAIL_CHANGED
+}
