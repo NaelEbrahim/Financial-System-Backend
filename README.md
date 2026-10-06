@@ -24,7 +24,7 @@ A secure financial system built with a **Spring Boot microservices architecture*
 
 NovaBank follows a **microservices architecture** where each service is responsible for a specific business domain.
 
-![NovaBank Architecture](docs/images/novabank-architecture.png)
+![NovaBank Architecture](diagrams/System_Architecture.jpg)
 
 ### Services
 
