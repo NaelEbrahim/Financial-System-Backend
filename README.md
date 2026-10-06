@@ -13,7 +13,6 @@ A secure financial system built with a **Spring Boot microservices architecture*
 * Account creation and balance management
 * Send and receive money between accounts
 * Transaction history
-* Financial ledger
 * In-app and email notifications
 * PIN verification for transfers
 * Asynchronous event-driven processing with Kafka
