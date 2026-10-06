@@ -35,7 +35,6 @@ NovaBank follows a **microservices architecture** where each service is responsi
 | **identity-service**     | Users, authentication, profiles, roles, PINs, and OTP verification |
 | **account-service**      | Accounts, balances, and account status                             |
 | **transaction-service**  | Money transfers and transaction lifecycle                          |
-| **ledger-service**       | Financial ledger and transaction records                           |
 | **notification-service** | In-app and email notifications                                     |
 
 ## Communication
