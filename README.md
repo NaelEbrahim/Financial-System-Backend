@@ -53,13 +53,14 @@ Entity Relationship Diagrams
 ERD diagrams are provided for the individual services and their databases.
 The ERD folder contains the database design for each service.
 
+```text
 diagrams/
 └── ERD/
     ├── identity-service
     ├── account-service
     ├── transaction-service
     └── notification-service
-
+```    
     
 Use Case Diagram
 
