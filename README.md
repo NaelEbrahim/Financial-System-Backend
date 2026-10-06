@@ -37,6 +37,39 @@ NovaBank follows a **microservices architecture** where each service is responsi
 | **transaction-service**  | Money transfers and transaction lifecycle                          |
 | **notification-service** | In-app and email notifications                                     |
 
+
+System Design
+
+The repository includes several diagrams documenting the system design and development process.
+
+
+System Architecture
+
+The system architecture diagram shows the relationship between the Flutter client, API Gateway, microservices, Kafka, service discovery, configuration, and databases.
+
+
+Entity Relationship Diagrams
+
+ERD diagrams are provided for the individual services and their databases.
+The ERD folder contains the database design for each service.
+
+diagrams/
+└── ERD/
+    ├── identity-service
+    ├── account-service
+    ├── transaction-service
+    └── notification-service
+
+    
+Use Case Diagram
+
+The use case diagram describes the main interactions between users and the NovaBank system.
+
+Activity Diagram
+
+The activity diagram describes the main business workflows and the sequence of activities performed by the system.
+
+
 ## Communication
 
 NovaBank uses both synchronous and asynchronous communication.
@@ -233,17 +266,24 @@ This helps prevent inconsistencies between database updates and event publishing
 NovaBank/
 │
 ├── services/
-│   ├── gateway-service/
-│   ├── identity-service/
-│   ├── account-service/
-│   ├── transaction-service/
-│   └── notification-service/
+│   ├── config-server/
+│   ├── discovery/
+│   ├── gateway/
+│   ├── identity/
+│   ├── account/
+│   ├── transaction/
+│   └── notification/
 │
-├── config-service/
-├── discovery-service/
-│
-├── mobile/
-│   └── Flutter application
+├── diagrams/
+│   ├── ERD/
+│   │   ├── AccountService.png
+│   │   ├── IdentityService.png
+│   │   ├── NotificationService.png
+│   │   └── TransactionService.png
+│   │
+│   ├── Use_Case_Diagram.png
+│   ├── Activity_Diagram.png
+│   └── System_Architecture.jpg
 │
 ├── docker-compose.yml
 ├── README.md
