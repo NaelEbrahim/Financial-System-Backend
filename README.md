@@ -1,6 +1,6 @@
 # NovaBank
 
-A secure financial system built with a **Spring Boot microservices architecture** for managing users, accounts, money transfers, transactions, ledger records, and notifications.
+A High performance financial system built with a **Spring Boot microservices architecture** for managing users, accounts, money transfers, transactions, ledger records, and notifications.
 
 > **Note:** NovaBank is an educational / portfolio project. It is not intended for real financial use.
 
