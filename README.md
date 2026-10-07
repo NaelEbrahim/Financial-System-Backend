@@ -4,6 +4,8 @@ A High performance financial system built with a **Spring Boot microservices arc
 
 > **Note:** NovaBank is an educational / portfolio project. It is not intended for real financial use.
 
+Mobile App repository: [Financial-System-Mobile](https://github.com/NaelEbrahim/Financial-System-Mobile)
+
 ## Features
 
 * User registration and authentication
