@@ -41,19 +41,19 @@ NovaBank follows a **microservices architecture** where each service is responsi
 
 
 
-## System Design
+**System Design**
 
 The repository includes several diagrams documenting the system design and development process.
 
 
 
-## System Architecture
+**System Architecture**
 
 The system architecture diagram shows the relationship between the Flutter client, API Gateway, microservices, Kafka, service discovery, configuration, and databases.
 
 
 
-## Entity Relationship Diagrams
+**Entity Relationship Diagrams**
 
 ERD diagrams are provided for the individual services and their databases.
 The ERD folder contains the database design for each service.
@@ -68,13 +68,13 @@ diagrams/
 ```    
 
     
-## Use Case Diagram
+**Use Case Diagram**
 
 The use case diagram describes the main interactions between users and the NovaBank system.
 
 
 
-## Activity Diagram
+**Activity Diagram**
 
 The activity diagram describes the main business workflows and the sequence of activities performed by the system.
 
